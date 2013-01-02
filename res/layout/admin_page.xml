@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:paddingTop="200px"  
+     android:background="@drawable/yash"
+         >
+    <Button 
+  		android:id="@+id/Man_Stu"
+  		android:paddingTop="20px"
+  		android:text="Manage Students"
+  		android:layout_gravity="center"
+  		android:layout_width="250px"
+  		android:layout_height="wrap_content"
+  		android:onClick="manage_stud"
+  		android:clickable="true"
+  		
+  />
+  <Button 
+  		android:id="@+id/Man_Fac"
+  		android:paddingTop="20px"
+  		android:text="Manage Faculty"
+  		android:layout_gravity="center"
+  		android:layout_width="250px"
+  		android:layout_height="wrap_content"
+  		android:onClick="manage_fac"
+  		android:clickable="true"
+  		
+  />
+ 
+
+    <Button 
+  		android:id="@+id/view"
+  		android:paddingTop="20px"
+  		android:text="Log Out"
+  		android:layout_gravity="center"
+  		android:layout_width="250px"
+  		android:layout_height="wrap_content"
+  		android:onClick="log_out"
+  		android:clickable="true"
+  		
+  />
+  
+    </LinearLayout>

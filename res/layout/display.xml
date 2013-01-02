@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	<TextView 
+    		android:id="@+id/Usn"
+    		android:layout_width="200px"
+    		
+    		android:layout_height="30px"
+    		android:text="vinit"
+    		android:textColor="#ff000000"	
+    	/>
+    	<TextView
+    		android:layout_toRightOf="@id/Usn" 
+    		android:id="@+id/Attended"
+    		android:layout_width="185px"
+    		
+    		android:layout_height="30px"
+    		android:text="vinit"
+    		android:textColor="#00ff00"
+    	/>
+    	<TextView 
+    	android:layout_width="100px"
+    	android:layout_toRightOf="@id/Attended" 
+    	android:id="@+id/Missed" 
+    	android:layout_height="30px"
+    	android:textColor="#ff0000"
+    	android:text="vinit"
+    	>
+    	</TextView>
+  
+    	</RelativeLayout>

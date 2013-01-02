@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="@drawable/yash"
+   
+
+    >
+    <EditText 
+	android:id="@+id/Sname1"
+	android:hint="Student Name"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+>
+<requestFocus></requestFocus>
+</EditText>
+  <EditText 
+  		android:id="@+id/USN1"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="USN"
+  		android:layout_gravity="center"
+  		/>
+  		<EditText 
+  		android:id="@+id/Code1"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Subject code"
+  		android:layout_gravity="center"
+  		/>
+   <EditText 
+  		android:id="@+id/Phone1"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="Phone Number"
+  		android:layout_gravity="center"
+  		/>
+<RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+>
+  		<Button 
+  			android:layout_width="200px"
+  			android:layout_height="wrap_content"
+  			android:text="Add"
+  			android:layout_gravity="left"
+  			android:onClick="home_start1"
+  			android:clickable="true"
+  			android:id="@+id/bu1"
+			/>
+  			<Button 
+  			android:layout_width="200px"
+  			android:layout_height="wrap_content"
+  			android:text="Back"
+  			android:layout_toRightOf="@id/bu1"
+  			android:id="@+id/home"
+  			android:layout_gravity="right"
+  			android:onClick="Back"
+  			android:clickable="true"
+  			/>
+  			
+
+ </RelativeLayout>
+ <ListView 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:drawSelectorOnTop="false"
+			android:cacheColorHint="#00000000" 
+			android:id="@android:id/list"
+		>
+		</ListView>
+    </LinearLayout>
